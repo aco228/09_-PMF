@@ -1,0 +1,37 @@
+.vijest_item{
+	position:relative;
+	background-color:#FFF;
+	height:306px; width:300px;
+	float:left;	margin:10px;
+	box-shadow:1px 1px 1px rgba(0,0,0,.2);
+	cursor:hand; cursor:pointer;
+	overflow:hidden;
+}
+	.vijesti_plus{
+		position:absolute;
+		color:#FFF;
+		background-color:#1d3bbb;
+		padding:2px 8px;
+	}
+	.vijest_item_in{ padding: 10px;  }
+	.vijest_item h4{
+		position:absolute; top:-10px; right:10px;
+		font-weight:100; font-size:12;
+		color:#949494;
+	}
+	.vijest_item h1{
+		color:#252525;
+		font-size:30px;
+		margin:0px;
+		margin-top:30px;
+		line-height: 30px;
+	}
+	.vijest_item h2{
+		margin-top:5px;
+		color:#1d3bbb;
+		font-size:15px;
+	}
+	.vijest_item h3{
+		color:#949494;
+		font-size:13px; font-weight:100;
+	}

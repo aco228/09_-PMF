@@ -1,0 +1,43 @@
+.korjen{
+	background-color: rgba(11, 9, 66, 0.41);
+	padding: .8%;
+	border-radius:5px;
+	margin-top:10px;
+	overflow: hidden;
+}
+
+#cvor_template{ display: none; }
+
+.korjen_info{}
+	.korjen_info_opcije{ position: relative; }
+		.korjen_info_opcije_btn{
+			position:absolute; height:15px; width: 17px; 
+			z-index:1; background-repeat:no-repeat;
+			cursor:hand; cursor:pointer;
+			opacity:.2;
+		}.korjen_info_opcije_btn:hover{ opacity:1; }
+			.btnAdd{ top: 2px; right: 40px; background-image:url('../../_slike/_admin/predmeti/semestar_new.png');}
+			.btnOpen{ top: 2px; right: 2px; background-image:url('../../_slike/_admin/predmeti/smjer_dolje.png');}
+			.btnDell{ top: 2px; right: 20px; background-image:url('../../_slike/_admin/nalozi/nalog_brisi.png'); }
+			/* elementi */
+		
+		/* UNOS */
+		.korjen_info_unos{ 
+			position: relative;
+		}
+			.unosIcon{ position:absolute; height:12px; width: 12px; background-color:#FFF; background-size:cover; }
+				.iconMne{top: 3px; left: 3px; background-image:url('../../_slike/_mainMenu/lang_mne.jpg'); }
+				.iconEng{top: 21px; left: 3px; background-image:url('../../_slike/_mainMenu/lang_eng.jpg');}
+				.iconLnk{top: 39px; left: 3px; background-image:url('../../_slike/_admin/predmeti/smjer_link.png');}
+			.korjenUnos{ 
+				width:100%;
+				background-color:rgba(255,255,255,.8);
+				border:none;
+				margin:0px; margin-top:1px;
+				font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+				padding:1px 20px;
+			}
+
+.korjen_body{
+	padding-left:5%;
+}

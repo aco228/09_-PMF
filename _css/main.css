@@ -1,0 +1,26 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	border: none;
+	height: 100%;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	/*font-family: "Open Sans", Arial, sans-serif;*/
+	font-weight:100;
+	background-color: #373737;
+    overflow-x:hidden;
+}
+
+a{ text-decoration: none; }
+
+/* okvir za vidljive elemente sajta */
+#site_wrapper{
+	position: relative;
+	width: 100%; 
+	overflow:hidden;
+	box-shadow:0px -35px 50px rgba(0,0,0,.5);
+	background-color: #ebebeb;
+}
+
+h1,h2,h3{ margin: 0px; }
+textarea, input { outline: none; }
+a { color:inherit; }

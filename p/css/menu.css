@@ -1,0 +1,51 @@
+#pmenu{
+    margin-top:-210px;
+    float:left;
+    width:14%; 
+    padding-bottom: 50px;
+    background-color:#2e396b;
+    box-shadow:inset -6px 15px 15px rgba(235,235,235,.3); 
+    width:14%; height:100%; min-height: 100%;
+}
+#prazmak{ height: 210px ;}
+
+.pmenu_item{
+    position:relative;
+    color:#95a0aa; font-size:15px;
+    background-color:rgba(255,255,255,.04);
+    margin-bottom:1px; font-size:14px;
+    padding:8px 5px;
+    cursor:hand; cursor:pointer;
+    height: 20px;
+} .pmenu_item:hover { color:#FFF; background-color: #1fb5ad ;}
+    .pmenu_icon{
+        position:absolute; top:8px; left 5px;
+        width:20px; height:20px; float:left;
+        background-repeat:no-repeat; background-position:center; 
+        background-size:auto 20px;
+        opacity:.5;
+    } .pmenu_item:hover .pmenu_icon{ opacity: 1; }
+    .pmenu_text{ position:absolute; left: 35px; }
+    .pmenu_icon2{}
+
+    /* ELEMENTI */
+    #pmenu_pocetna .pmenu_icon{ background-image:url('../../_slike/_predmeti/_menu_pocetna.png'); }
+    #pmenu_obavjestenja .pmenu_icon{background-image:url('../../_slike/_predmeti/_menu_obavjestenja.png');}
+    #pmenu_materijali .pmenu_icon{background-image:url('../../_slike/_predmeti/_menu_materijali.png');}
+    #pmenu_rezultati .pmenu_icon{background-image:url('../../_slike/_predmeti/_menu_rezultati.png');}
+    #pmenu_informacije .pmenu_icon{background-image:url('../../_slike/_predmeti/_menu_informacije.png');}
+    #pmenu_diskusije .pmenu_icon{background-image:url('../../_slike/_predmeti/_menu_diskusije.png');}
+    /* Dodatni elementi */
+    #pmenu_addPredmet  .pmenu_icon{background-image:url('../../_slike/_predmeti/_menu_addPredmet.png'); }
+    #pmenu_postObavjestenje .pmenu_icon{background-image:url('../../_slike/_predmeti/_menu_obavjestenja.png'); }
+    #pmenu_postMaterijal .pmenu_icon{background-image:url('../../_slike/_predmeti/_menu_materijali.png'); }
+    #pmenu_postRezultat .pmenu_icon{background-image:url('../../_slike/_predmeti/_menu_rezultati.png'); }
+    #pmenu_postKalendar .pmenu_icon{background-image:url('../../_slike/_predmeti/_headerInfo_kalendar.png'); }
+    #pmenu_editTermin .pmenu_icon{background-image:url('../../_slike/_predmeti/_headerInfo_termin.png'); }
+    #pmenu_editInfo .pmenu_icon{background-image:url('../../_slike/_predmeti/_menu_informacije.png'); }
+    #pmenu_editReset .pmenu_icon{background-image:url('../../_slike/_predmeti/_menu_informacije.png'); }
+
+.pmenu_razmakItema{
+    /* Razmak izmedju item-a, radi razlicitih sekcija menij */
+    height: 5px;
+}

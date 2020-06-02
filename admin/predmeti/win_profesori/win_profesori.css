@@ -1,0 +1,47 @@
+#wbinfo{
+	font-size: 12px; 
+	color:#000;
+}
+#wbunos{
+	padding:4px; 
+    width:750px;
+    border:1px solid #d6d6d6;
+	margin:5px 0px;
+}
+#wbpotvrdi{
+    width:750px;
+    padding:5px;background-color: #2e88b3;
+    background: linear-gradient(#56a2d1, #2e88b3);
+    padding: 5px 15px;
+    margin: 0px 0px;
+    color: #FFF;
+    border-radius: 3px;
+    text-shadow: 1px 1px 0px rgba(0,0,0,.5);
+    border: 1px solid #4391b6;
+    box-shadow: 2px 2px 2px #237398;
+    font-size: 14px;
+    cursor: hand;
+    cursor: pointer;
+}
+#wbkontenjer{
+	width:750px; height:400px;
+	overflow-y:auto;
+}
+.wbuser{
+	float:right;
+	font-weight:bold;color: #000;
+}
+
+.wbprof{
+    border:1px solid #d6d6d6;
+	padding:2px; margin-top:2px;
+    cursor: hand; cursor: pointer;
+	font-size:14px; background-color:#e9ebf4;
+}
+	.wbprof_selekt{ 
+		background-color:#1d3bbb; 
+		background: linear-gradient(to left, #e9ebf4, #56a2d1);
+    	
+		border: 1px solid #495791;
+		color:#FFF; 
+	} 

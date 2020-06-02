@@ -1,0 +1,10 @@
+.kinfoBox{
+    margin:5px; padding:5px;
+    background-color: #FAFAFA;
+    box-shadow:1px 1px 1px rgba(0,0,0,.1);
+    font-size:14px;
+    color: #5A5A5A;
+}
+.kinfoBoxNaslov{ font-weight:bold; background-color: rgba(196, 196, 196, 0.1); padding:2px;}
+.kinfoBoxTekst{ padding: 2px;}
+

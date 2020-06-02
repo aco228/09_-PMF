@@ -1,0 +1,60 @@
+.artikl{
+	background-color: FFF;
+	margin: 5px 0px;
+	padding: 5px 15px;
+	font-size: 14px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+	color: #272727;
+	overflow:hidden; height:22px;
+	
+}
+	.artikl_red{ border: 1px solid #bb1d1d; border-left: 10px solid #bb1d1d; padding:5px 15px 5px 5px;  }
+.artikl_header{
+	position:relative;
+}
+	.artikl_naslov{
+		font-weight:bold;
+		width:80%;
+		cursor:hand; cursor:pointer;
+		line-height:22px;
+	}
+	.artikl_opcije{ position:absolute; right:-5px; top:0px; }
+		.artikl_datum{ 
+			float:left; line-height:22px;
+			margin-right:5px;
+			color: #6D6D6D;
+			text-shadow:1px 1px 1px rgba(0,0,0,0.1);
+		}
+		.artikl_btn{
+			width:25px; height:18px; background-color:#000;
+			margin:0px 3px; float:left;
+			background-repeat: no-repeat; background-position: center;
+			background-color:#f1f1f1;
+			box-shadow:1px 1px 1px rgba(0,0,0,.5);
+			cursor:hand; cursor:pointer;
+    		border:1px solid #FFF;
+		}
+		/* ikonice */
+			.btn_brisi{ background-image: url('../../_slike/_admin/nalozi/nalog_brisi.png'); }
+			.btn_promjeni{ background-image: url('../../_slike/_admin/predmeti/smjer_promjeni.png'); }
+			.btn_link{ background-image:url('../../_slike/_admin/predmeti/smjer_link.png'); }
+
+.artikl_body{ margin-top: 2px;}
+.artikl_opis{ color: #5855dd; }
+	#ucitaj_load{
+		display: none;
+		height: 12px; margin-top:20px;
+		background-image:url('../../_slike/_elementi/preloader.gif');
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	#ucitajJos{
+		width:100%;
+		text-align:center;
+		padding:3px; margin-top:5px;
+		background-color:#5855dd; color:#FFF;
+		text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+		box-shadow: 0px 0px 20px rgba(0,0,0,.2);
+		cursor:hand; cursor:pointer;
+		font-size:14px;
+	}

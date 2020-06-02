@@ -1,0 +1,53 @@
+#wkui{
+	width:600px;
+	height:400px;
+	overflow-y:auto;
+}
+.wkuibox{
+	position:relative;
+	background-color: #DCDCEE;
+	margin-bottom:5px;
+	padding:3px;
+	box-shadow:1px 1px 1px rgba(0,0,0,.2);
+	border-radius:5px;
+	
+}
+	.wkuiDell{
+		position:absolute; height: 16px; width:16px;
+		top: 7px; right:7px;
+		background-image:url('../../_slike/_admin/nalozi/nalog_brisi.png');
+		cursor:hand; cursor:pointer;
+		opacity:.5;
+	}.wkuiDell:hover{opacity:1; }
+	.wkuiNaslov{
+		width:100%;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		border:none;
+		padding: 3px;
+		background-color:rgba(255,255,255,.7); text-shadow:1px 1px 1px #FFF;
+		margin-bottom:2px;
+	}
+	.wukiTekst{
+		width:100%;
+		height:35px;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		border:none;
+		padding: 3px;
+		background-color:rgba(255,255,255,.7); text-shadow:1px 1px 1px #FFF;
+	}
+#wkuiOpcije{ margin-top: 3px; }
+.wkuiBtn{
+	background-color: #2e88b3;
+	background: linear-gradient(#56a2d1, #2e88b3);
+	padding: 3px 15px;
+	margin: 0px 5px;
+	color: #FFF;
+	border-radius: 3px;
+	text-shadow: 1px 1px 0px rgba(0,0,0,.5);
+	border: 1px solid #4391b6;
+	box-shadow: 2px 2px 2px #237398;
+	font-size: 14px;
+	cursor: hand;
+	cursor: pointer;
+	margin-bottom: 5px;
+}

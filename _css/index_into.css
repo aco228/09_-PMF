@@ -1,0 +1,30 @@
+#index_wrapper{
+	/*position:absolute; */ margin-top: -188px;
+	top:0px; left:0px; width: 100%;
+}
+#index_wrapper_in{position: relative; width: 100%; height:100%;}
+#into_fade{
+	position: absolute; height: 100%; width: 100%;
+	background: linear-gradient(rgba(255,255,255,.9) 5%, rgba(235,235,235,.10) 50%, rgba(0,0,0,0) 100%); /* 235 */
+	z-index:6;
+	pointer-events:none;
+}
+#into_effect{
+	position: absolute; height: 100%; width: 100%;
+	background-image:url('../_slike/_index/back_4.png');
+	opacity: .4;
+	z-index:5;
+	pointer-events:none;
+}
+#into_boxes{
+	position: absolute; height: 100%; width: 100%;	
+	z-index: 4;
+}
+	.into_boxes_box{ float:left; background-color: rgba(255,255,255,.8);}
+#into_back{
+	display: none;
+	position: absolute; height: 100%; width: 100%;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+}

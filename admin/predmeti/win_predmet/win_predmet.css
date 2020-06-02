@@ -1,0 +1,38 @@
+.wblok{
+    margin-top:6px;
+    color:#2a2a2a;
+}
+/* opis zaglavlja */
+.wblok h1{
+    font-weight:100;
+    margin:0px;
+    font-size:14px;
+}
+/* unos u zaglavlje */
+.wbin{
+    padding:4px; 
+    width:750px;
+    border:1px solid #d6d6d6;
+}
+.wblok textarea{
+    width:750px; max-width:750px;
+    border:1px solid #d6d6d6;
+}
+.wblok h2{
+    margin:0px; font-size:13px;
+}
+#wbslanje{
+    width:750px;
+    padding:5px;background-color: #2e88b3;
+    background: linear-gradient(#56a2d1, #2e88b3);
+    padding: 5px 15px;
+    margin: 0px 0px;
+    color: #FFF;
+    border-radius: 3px;
+    text-shadow: 1px 1px 0px rgba(0,0,0,.5);
+    border: 1px solid #4391b6;
+    box-shadow: 2px 2px 2px #237398;
+    font-size: 14px;
+    cursor: hand;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+#into_welcome{
+    position:absolute;
+    z-index:50;
+    width:inherit;
+}
+#into_welcome_naslov{
+    position:absolute;
+    font-weight:bold;
+    top:270px; left:10%; width:80%;
+    font-size:25px;
+    background-color:rgba(255,255,255,.5);
+    text-shadow:1px 1px 5px rgba(255,255,255,.5);
+    padding:5px;
+    width:80%;
+}
+#into_welcome_tekst{
+    position:absolute;
+    top:320px; left:10%; width:60%;
+    font-size:18px;
+    background-color:rgba(255,255,255,.5);
+    text-shadow:1px 1px 5px rgba(255,255,255,.5);
+    padding:5px;
+    width:80%;
+}

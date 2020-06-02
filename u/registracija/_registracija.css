@@ -1,0 +1,60 @@
+body, html{
+	background-color:#333;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	overflow:hidden;
+}
+a{ text-decoration: none; }
+
+#kontenjer{}
+h1,h2,h3{ margin:0px; }
+#naslov{
+	width:100%;
+	text-align:center;
+	text-shadow:1px 1px 0px #000;
+}
+	#naslov h1{
+		font-size:60px;
+		color:#FFF;
+	}
+	#naslov h2{
+		font-size:20px;
+		margin-top:-15px;
+		color:#999;
+	}
+
+#forma{
+	width:100%;
+	padding:0% 25% 0% 25%;
+	margin-top:20px;
+}
+	.unos_box{
+		margin-top:5px;
+	}
+	.unos_box h1{
+		font-size:14px;
+		color:#FFF;
+		font-weight:100;
+		text-shadow:1px 1px 0px #000;
+	}
+	.unos{
+		width:50%;
+		padding:5px;
+		color:#555;
+		text-shadow:1px 1px 0px rgba(0,0,0,.1);
+	} .unos:focus{ border: outset 1px solid #195e98; }
+
+ #forma h2{
+	 color:#FFF;
+	 font-size:14px;
+	 margin-top:20px;
+		text-shadow:1px 1px 0px #000;
+ }
+ #forma_btn{
+	 width:50%;
+	 padding:10px;
+	 cursor:hand; cursor:pointer;
+	 background-color:#5cb85c;
+	 color:#FFF;
+	 text-shadow:1px 1px 2px rgba(0,0,0,.5);
+	 border:1px solid green;
+ }

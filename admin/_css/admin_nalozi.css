@@ -1,0 +1,102 @@
+#admin_nalozi_wrapper{
+    margin-top:15px;
+}
+#admin_nalozi_pretraga{}
+#nalog_input{
+    width:84%;
+    margin:0px;
+    padding:10px 5px;
+    color:#000;
+    border-radius:9px 0px 0px 0px;
+    border:1px solid #b2b2b2;
+    background-color:#dee6ec;
+	text-shadow:1px 1px 0px rgba(255,255,255,.5);
+}
+#nalog_input_pretraga{
+    width:15%; margin:0px; margin-left:-5px;
+    padding:10px 5px;
+    cursor:hand; cursor:pointer;
+    border-radius:0px 9px 9px 0px;
+    border:1px solid #b2b2b2;
+    background-color:#bdc4dc;
+	text-shadow:1px 1px 0px rgba(255,255,255,.5);
+}
+.nalog_input_check{
+    float:left;
+    border:1px solid #b2b2b2; border-top:none; margin-left:-1px;
+    width:250px; text-align:center;
+    padding:2px 5px;
+    cursor:hand; cursor:pointer;
+    background-color:#d6b9b9;
+	font-size:13px;
+	text-shadow:1px 1px 0px rgba(255,255,255,.5);
+}
+    .nalog_input_check:first-of-type{ border-radius:0px 0px 0px 9px; margin-left:0px; }
+
+#admin_nalozi_kontenjer{
+	margin:20px 0px;
+}
+#admin_nalozi_load{
+	display:none;
+    background-image:url('../../_slike/_elementi/preloader.gif');  
+    width:100%; height:11px;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+#ucitaj_jos{
+	margin-top:5px;
+	cursor:hand; cursor:pointer;
+	padding:3px; 
+    background-color:#bdc4dc;
+	text-shadow:1px 1px 0px rgba(255,255,255,.5);
+    border:1px solid #b2b2b2;
+	text-align:center;
+}
+
+/*
+	NALOG
+*/
+.nalog{
+	position:relative;
+	background-color:FFF;
+	margin:5px 0px;
+	padding:5px 15px;
+	font-size:14px;
+	box-shadow:1px 1px 1px rgba(0,0,0,.2);
+	color:#272727;
+} 
+.nalog_prof{ border: 1px solid #1d3bbb; border-left: 10px solid #1d3bbb; padding:5px 5px;}
+.nalog_admin{border: 1px solid #bbb91d; border-left: 10px solid #bbb91d; padding:5px 5px; }
+.nalog_ban{border: 1px solid #bb1d1d; border-left: 10px solid #bb1d1d; padding:5px 5px; }
+
+	.nalog_ime{
+		float:left; width:25%; font-weight:bold;
+	}
+	.nalog_email{
+		float:left; width:35%;
+	}
+	.nalog_user{ width:10%; float:left;
+	}
+
+	.nalog_options{
+		position:absolute; right:5px; top:3px;
+	}
+		.nalog_options_btn{
+			width:25px; height:18px; background-color:#000;
+			margin:0px 3px; float:left;
+			background-repeat: no-repeat; background-position: center;
+			background-color:#f9f9f9;
+			box-shadow:1px 1px 1px rgba(0,0,0,.5);
+			cursor:hand; cursor:pointer;
+    		border:1px solid #FFF;
+		}
+		.nalog_btn_load{ display:none; background-image:url('../../_slike/_elementi/preloader.gif');   }
+		.nalog_btn_izbrisi{ background-image: url('../../_slike/_admin/nalozi/nalog_brisi.png'); }
+		.nalog_btn_ban{ background-image: url('../../_slike/_admin/nalozi/nalog_ban.png'); }
+		.nalog_btn_prof{ background-image: url('../../_slike/_admin/nalozi/nalog_prof.png'); }
+		.nalog_btn_admin{ background-image: url('../../_slike/_admin/nalozi/nalog_admin.png'); }
+		.nalog_btn_selekt{
+			background-color:#f9f9f9;
+    		border:1px solid #9b0000;
+			background-color:rgba(155,0,0,0);
+		}

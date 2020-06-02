@@ -1,0 +1,31 @@
+#kontakti{
+    float:left; width: 20%;
+    background-color:#ebf0f2;
+    padding:1%; font-size:14px;
+    padding-right:0px;
+}
+#kontaktNaslov{
+    font-weight:bold; 
+    color:#9db0b7; margin-bottom:5px;
+    text-transform: uppercase;
+}
+
+.porukaKontakt{
+    height:30px;
+    margin-bottom: 5px;
+    cursor:hand; cursor:pointer;
+    padding:3px;
+}.porukaKontakt:hover{ background-color: rgba(255,255,255,.8); }
+.porukaKontaktSelekt{ background-color: #FFF; }
+.pkSlika{
+    height:30px; width:30px; float:left;
+    background-color:#FFF; margin-right:5px;
+    background-image:url('../../_slike/_profil/avatar.png');
+    background-size:cover;
+    border:1px solid #d6d6d6; border-radius:9px;
+}
+.pkIme{
+    color:#393939; font-weight:bold;
+    text-shadow:1px 1px 0px rgba(255,255,255,.8);
+    line-height:30px;
+}

@@ -1,0 +1,58 @@
+#termin_holder{}
+#termin_header{}
+	.tbtn{
+		cursor:hand; cursor:pointer;
+		background-color: #D3DAEC;
+		padding:5px; text-align:center;
+		margin-bottom:5px;
+		font-size:14px; 
+	} #tbtnSave{ margin-bottom: 14px; }
+
+#termin_body{
+	
+}
+#template{ display:  none; }
+
+	/* BOX */
+	.terminbox{
+		background-color: #D5D5D5;
+		padding:5px;
+		border-radius:5px;
+		box-shadow:1px 1px 1px rgba(0,0,0,0.2);
+		margin-bottom:5px;
+		font-size:14px; text-shadow:1px 1px 1px rgba(255,255,255,0.4);
+		height:25px; overflow:hidden;
+	}
+	.terminb_header{
+		position:relative;
+		background-color: #C5C5C5;
+		border-radius:9px; padding:5px;
+	}
+		.terminb_predmet{ font-weight:bold; cursor: hand; cursor: pointer; }
+
+		/* HEADER DUGMAD */
+		.theadbtn{
+			position:absolute; top:5px; right:10px;
+			font-size:14px; font-weight:bold;
+			cursor:hand; cursor:pointer;
+			background-color:rgba(255,255,255,0.4);
+			padding: 0px 5px; border-radius:5px;
+			height: 15px; width: 15px; text-align:center;
+			background-repeat:no-repeat; background-position:center;
+		} .theadbtn:hover{ background-color: rgba(255,255,255,.8); }
+		.terminb_close{ top:5px; right:10px; }
+		.terminb_save{ top:5px; right:40px; background-image: url('../../_slike/_predmeti/termin_save.png'); }
+		.terminb_load{ top:5px; right:70px; background-image: url('../../_slike/_elementi/preloader.gif'); display:none; }
+		
+	.terminb_body{}
+		.termin_boxinfo{
+			background-color:rgba(255,255,255,.2);
+			margin-top: 5px; padding:3px;
+		}
+		.boxinfo_opis{ }
+		.teminUnos{ width:100%; padding:2px;}
+		.tselekt{width: 49%; padding: 2px;}
+		#lpocetak{ float:left; width: 49%}
+		#rkraj{ float:right; width: 49%}
+		#lopis{ float:left; width: 49%}
+		#ropis{ float:right; width: 49%}

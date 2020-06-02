@@ -1,0 +1,64 @@
+#predmet_wrapper{
+	margin-left:15%; margin-top:25px; margin-right:5%; margin-bottom:25px;
+}
+
+/* HEADER */
+#predmet_header{position:relative;}
+	#predmet_naslov{ color: #444444; text-shadow: 0px 0px 0px 2px rgba(0,0,0,.1); }
+		#predmet_ime{ font-size:30pt; }
+		#predmet_smjer{ font-size:15pt; margin-top:-10px; }
+		#predmet_smjer:hover{ text-decoration: underline; }
+	#predmet_datum{ 
+		position:absolute; right:0px; top:0px;	
+		background-color:#FFF;
+		box-shadow:0px 0px 5px rgba(0,0,0,.10);
+	}
+		#pdatum_lijevo{
+			padding:5px 10px;
+			float:left; color:#FFF;
+			background-color:#1fbba6;
+		}
+			#pdatum_dan{ font-size:14px;}
+			#pdatum_brdan{ font-size:30px; font-weight:bold; margin-top:-8px;}
+				#pdatum_mjs{ font-size:14px; margin-left:-4px; font-weight:100; }
+		#pdatum_desno{
+			font-weight:bold; color:#1fbba6; font-size:30px; line-height:40px;	
+			padding:5px 10px;
+			float:right;
+		}
+/* INFO */
+#predmet_info{ margin-top: 10px; height: 75px;}
+	.pinfo{
+		position:relative;
+		float:left; padding:10px;
+		width: 21.1%; margin-right:2%;
+		background-color:#FFF;
+		box-shadow:0px 0px 5px rgba(0,0,0,.10);
+		min-height: 60px; 
+	}
+		.pinfo_naslov{ color:#666666; }
+		.pinfo_icon{
+			position:absolute; top:10px; right:10px;
+			width:60px; height:60px;
+			background-color:#000;
+			border-radius:9px;
+			background-repeat:no-repeat; background-position:center;
+		}
+		/* ELEMENTI */
+		#info_rukovodioci{}
+		#info_prijave{}
+			#info_prijave .pinfo_icon{
+				background-color:#fa8564;	
+				background-image:url('../../_slike/_predmeti/_headerInfo_prijave.png');
+			}
+			#info_prijave .pinfo_tekst{ font-size:40px; margin-top:-5px; color:#cccccc;}
+		#info_kalendar{ cursor:hand; cursor:pointer; }
+			#info_kalendar .pinfo_icon{
+				background-color:#aec785;	
+				background-image:url('../../_slike/_predmeti/_headerInfo_kalendar.png');	
+			}
+		#info_termin{ cursor:hand; cursor:pointer; margin-right:0px; }
+			#info_termin .pinfo_icon{
+				background-color:#22beef;	
+				background-image:url('../../_slike/_predmeti/_headerInfo_termin.png');	
+			}

@@ -1,0 +1,23 @@
+#predmet_content{
+    background-color:#FFF;
+    margin-top:35px;
+    box-shadow:0px 0px 5px rgba(0,0,0,.1);
+}
+#predmet_content_naslov{
+    background-color:#fbfbfb;
+    border-bottom:1px solid #ededed;
+    padding:10px;
+    box-shadow:0px 0px 1px rgba(0,0,0,.1);
+    font-weight:bold; color:#777777;
+    font-size:15px;
+}
+.lprofil{ }
+.lprofil:hover{ text-decoration: underline; }
+#predmet_content_load{
+	display: none;
+    height:150px; width:100%;
+    background-image:url('../../_slike/_predmeti/preloader.gif');	
+    background-repeat:no-repeat;
+    background-position:center;
+}
+#predmet_content_body{ padding: 5px; }

@@ -1,0 +1,79 @@
+#poruka_wrapper{
+    margin-top:20px;
+    padding: 0px 10%;
+}
+
+#poruka_loader{
+	display: none;
+	position:absolute;
+	width: 100%; height: 150px;
+    background-image:url('../../_slike/_predmeti/preloader.gif');
+    background-repeat: no-repeat; background-position: center;
+}
+
+#porukaNaslov{ margin-bottom: 5px; }
+#porukaNaslov a{ font-size:17px; color:#393939; }
+#porukaNaslov a:hover{ text-decoration:underline; }
+
+#loadStarijePoruke{ 
+	display: none;
+	font-size:13px; font-weight:bold; margin-bottom:5px; color:#393939;
+	cursor: hand; cursor: pointer; 
+}#loadStarijePoruke:hover{ text-decoration: underline; }
+#poruke_kontenjer{
+	max-height: 60%;
+	overflow-y:auto;
+}
+#poruka{
+	position:relative;
+	float:left; width:75%;
+	background-color:#FFF;
+	min-height:150px;
+	padding:1%;
+}
+
+.pporuka{
+	margin-bottom:10px; 
+}
+.porukaImg{
+    height:30px; width:30px; float:left;
+    background-color:#FFF; margin-right:5px;
+    background-image:url('../../_slike/_profil/avatar.png');
+    background-size:cover;
+    border:1px solid #d6d6d6; border-radius:9px;
+	box-shadow:inset 0px -3px 10px rgba(0,0,0,.3); 
+}
+.porukaBox{
+	border:1px solid #dde0e3; margin-left:35px;
+	padding:5px 10px; border-radius:9px;
+	box-shadow:inset 0px -3px 10px rgba(0,0,0,.1); 
+}
+	.porukaDatum{ font-size: 13px; color: #949494;}
+	.porukaTekst{color:#393939; text-shadow:1px 1px 1px #FFF;}
+
+	/* tipovi */
+	.ppposlato{ background-color:#f6f8f9; }
+
+/* INPUT */
+#poruka_input{
+	position:relative;
+	padding:5px;
+	background-color:#f7f7f7;
+	background:linear-gradient(#f7f7f7, #d7dfe2);
+	border-top:1px solid #dde0e3;
+}
+#poruka_input_text{
+	width:100%;
+	border:1px solid #dde0e3;
+	border-radius:5px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size:14px; font-weight:bold;
+	padding:1%; color:#393939;
+}
+#porukaBtnSend{
+	position:absolute; right:15px; top:15px;
+	height:26px; width:30px;
+	background-image:url('../../_slike/_poruke/btnSend.png');
+	opacity:.5;
+	cursor:hand; cursor:pointer;
+}#porukaBtnSend:hover{ opacity:1; }

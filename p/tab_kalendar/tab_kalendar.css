@@ -1,0 +1,35 @@
+#kalendar_holder{}
+#kalendar_header{}
+	.kbtn{
+		cursor:hand; cursor:pointer;
+		background-color: #D3DAEC;
+		padding:5px; text-align:center;
+		margin-bottom:5px;
+		font-size:14px; 
+		margin-bottom:15px;
+	} #kbtnSave{ margin-bottom: 14px; }
+
+#kalendar_body{
+	
+}
+
+.kalbox{
+	position:relative;
+	padding:3px; font-size:14px; 
+	background-color: #ECECEC;
+	margin-bottom:5px; 
+	border: 1px solid #919191; border-radius:5px;
+	color: #1B1B1B;
+	box-shadow:1px 1px 1px rgba(0,0,0,0.2);
+}
+	.kalnaslov{}
+	.kalopcije{ position:absolute; top:4px; right:5px;}
+		.kalopt{
+			width:17px; height:17px; background-color:#FFF; float:left;
+			margin-left:5px; cursor:hand; cursor:pointer;
+			background-size:15; background-position:center;
+			background-repeat:no-repeat; border-radius:2px;
+			box-shadow:1px 1px 1px rgba(0,0,0,.2);
+		}
+		.kalmod{ background-image:url('../../_slike/_admin/predmeti/smjer_promjeni.png'); }
+		.kaldel{ background-image:url('../../_slike/_admin/predmeti/smjer_izbrisi.png'); }

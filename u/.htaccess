@@ -1,0 +1,6 @@
+RewriteEngine on
+
+#RewriteBase /u/
+RewriteBase /www/09_%20PMF/u/
+RewriteRule ^([A-Z0-9a-z-+]+)$ index.php?s=$1 [S=1]
+RewriteRule ^([A-Z0-9a-z-+]+)/$ index.php?s=$1 [S=1]

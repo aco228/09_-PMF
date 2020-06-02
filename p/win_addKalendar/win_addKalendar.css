@@ -1,0 +1,35 @@
+#wk_kontenjer{
+	width:450px; font-size:14px;
+}
+.wk_naslov{ margin-bottom: 15px;}
+.wk_box{
+	background-color: #F0F0F0; padding:5px; margin-bottom:5px;
+	border-radius:5px;
+}
+	.wk_opis{ font-size:13px;}
+	.wk_input{ 
+		width: 100%; padding:5px;  
+		background-color: #CBD0E0;
+		border: 1px solid #9390A3;
+		text-shadow:1px 1px 0px rgba(0,0,0,0.1);
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size:15px;
+	}
+	#wkmjesec{ width: 50%;}
+	#wkdan{ width: 24%;}
+	#wkgodina{ width: 24%;}
+	#wksat{width:49%;}
+	#wkminut{width:48%}
+
+#wkbtn{
+	background: linear-gradient(#56A2D1, #2E88B3) repeat scroll 0% 0% transparent;
+	padding: 5px 15px;
+	margin-top:15px; text-align:center;
+	color: #FFF;
+	border-radius: 3px;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+	border: 1px solid #4391B6;
+	box-shadow: 2px 2px 2px #237398;
+	font-size: 14px;
+	cursor: pointer;
+}

@@ -1,0 +1,83 @@
+#addInformacijeHolder{}
+#addInfoBtn{
+	cursor: hand;
+	cursor: pointer;
+	background-color: #D3DAEC;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+
+#addInformationsHolder{}
+
+.addInfo{
+	position:relative;
+	background-color: rgba(11, 9, 66, 0.41);
+	margin-bottom:5px;
+	padding:3px;
+	border-radius:9px;
+	box-shadow:1px 1px 1px rgba(0,0,0,.8);
+}
+	.addInfoOpt{
+		position: absolute; height: 20px; width: 20px;
+		background-position: center; background-repeat:no-repeat;
+		cursor: hand; cursor: pointer;
+		opacity: .38;
+
+	} .addInfoOpt:hover{ opacity: 1; }
+		.addInfoOptDell{ top:3px; right:5px; background-image: url('../../_slike/_admin/nalozi/nalog_brisi.png'); }
+		.addInfoOptAdd{ top:3px; right:25px;  background-image: url('../../_slike/_admin/predmeti/semestar_new.png');}
+	.addInfoIcon{
+		position: absolute;
+		height: 12px; width: 12px;
+		background-color: #000;
+		background-size: cover;
+		left:8px;
+	}
+		.addInfoIconNSrp{top:7px; background-image: url('../../_slike/_mainMenu/lang_mne.jpg'); }
+		.addInfoIconNEng{top:30; background-image: url('../../_slike/_mainMenu/lang_eng.jpg'); }
+		.addInfoIconTSrp{top: 53px; background-image: url('../../_slike/_mainMenu/lang_mne.jpg'); }
+		.addInfoIconTEng{top: 91px; background-image: url('../../_slike/_mainMenu/lang_eng.jpg');}
+	.addInfoUnosNaslov{ 
+		width:100%;
+		margin:0px; margin-bottom:2px;
+		border:none;
+		background-color:rgba(255,255,255,.8);
+		border-radius:5px;
+		padding:3px; padding-left:25px;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	}
+	.addInfoTekst{
+		width:100%; max-width:100%;
+		margin:0px; margin-bottom:2px;
+		border:none;
+		background-color:rgba(255,255,255,.8);
+		border-radius:5px;
+		padding:3px; padding-left:25px;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	}
+	
+	.addInfoBody{
+		margin-top:5px;
+		padding-left:5%;
+
+	}
+
+	#saveAddInfo{
+		margin-top: 25px;
+		width: 150px;
+		background-color: #2e88b3;
+		background: linear-gradient(#56a2d1, #2e88b3);
+		padding: 2px 15px;
+		color: #FFF;
+		border-radius: 3px;
+		text-shadow: 1px 1px 0px rgba(0,0,0,.5);
+		border: 1px solid #4391b6;
+		box-shadow: 2px 2px 2px #237398;
+		font-size: 14px;
+		cursor: hand;
+		cursor: pointer;
+	}
+
+	#addInfoTemplate{display: none; }

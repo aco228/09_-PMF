@@ -1,0 +1,19 @@
+#tabInformacijaHolder{}
+
+.tabInformacijeBox{
+    background-color: rgba(179, 179, 179, 0.2);
+    font-size:14px;
+    color:#5A5A5A;
+    padding:5px;
+    margin-bottom:5px;
+    border-radius:5px;
+    box-shadow:1px 1px 1px rgba(0,0,0,.5);
+}
+.tabInformacijeBoxNaslov{
+    font-weight:bold;
+    background-color:rgba(255,255,255,.5);
+    padding:2px 5px;
+    border-radius:5px;
+}
+.tabInformacijeBoxTekst{margin-bottom:5px; padding:2px 5px; }
+.tabInformacijeBoxBody{ padding-left:2%;}

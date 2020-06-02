@@ -1,0 +1,199 @@
+#_main_menu_wrapper{ position: relative; width: 100%; z-index: 50; height: 170px; }
+#_main_menu_wrapper_in{
+	position: absolute;
+	width: 959px; margin-top: 10px;
+}
+#_main_menu_up{}
+
+/*
+	Gornja strana
+*/
+#_main_menu_logo{
+	width: 59px; height: 59px;  float: left;
+	background-image: url('../_slike/_main/logo.png');
+}
+#_main_menu_imeFakulteta{ 
+	width: 59px; height: 59px;  float: left; width: 200px; 
+	margin-left:5px;
+	text-shadow:1px 1px 0px rgba(255,255,255,.8);
+}
+	#_main_menu_imeFakulteta_pmf{
+		color:#1d3bbb;
+		font-size: 35px; font-weight: bold; 
+		margin:0px; margin-top:-1px;
+	}
+	#_main_menu_imeFakulteta_puniNaziv{
+		color:#7d7d7d;
+		font-size: 11px; margin-top:-5px;
+	}
+
+/* DESNA STRANA */
+#_main_menu_up_right{
+	position:absolute; top:0px; right:0px;
+}
+#izaberi_jezik{
+	float:left;
+	line-height:27px; margin-right:5px;
+	font-size:14px; 
+	color:#1d3bbb;
+	text-shadow:1px 1px 0px #FFF;
+}
+.chose_language{
+	float:left; 
+	height:27px; width:28px;
+	background-color:#FFF; 
+	margin:0px 2px;
+	box-shadow:1px 1px 1px rgba(0,0,0,.2);
+	cursor:hand; cursor:pointer;
+}
+	.chose_language_selekt{
+		width:100%; height:100%;
+		background-image: url('../_slike/_mainMenu/lang_selekt.png');
+		background-position: center;
+	}
+	#lang_srp { background-image: url('../_slike/_mainMenu/lang_mne.jpg'); }
+	#lang_eng { background-image: url('../_slike/_mainMenu/lang_eng.jpg'); }
+	
+#nalog_box{
+	float:left; height:27px; width:250px;
+	background-color:#f8f9fa;
+	margin:0px 5px;
+	box-shadow:1px 1px 1px rgba(0,0,0,.2);
+	cursor:hand; cursor:pointer;
+}
+#nalog_box_text{
+	width:100%;
+	text-align:center;
+	font-size:14px; font-weight:bold;
+	line-height:27px; 
+}
+	/* NALOG LOGIN */
+	#nalog_login{
+		position:absolute; right:-4px; top:30px;
+		opacity: 0;
+		clear:both;
+		width:266px;
+		background-color: #f8f9fa; 
+		z-index:255;
+		background-image:url('../_slike/_mainMenu/element_login.png');
+		background-repeat:no-repeat;
+		background-position:0px 5px;
+		border-radius:9px;
+		border:1px solid #c5c8cc;
+	box-shadow:1px 1px 1px rgba(0,0,0,.2);
+	}
+	#nalog_login_in{ padding:60px 15px 10px 15px; }
+	.nalog_unos{
+		width:100%;
+		background-color:#e4e6e9;
+		margin:0; padding:6px;
+		border:1px solid #c5c8cc;
+		box-shadow:inset 1px 2px 5px rgba(255,255,255,.5);
+		color:#636363; text-shadow:1px 1px 0px #FFF;
+	}
+		#nalog_username{border-bottom:none; border-radius:5px 5px 0px 0px; }
+		#nalog_password{border-radius:0px 0px 5px 5px; }
+	#nalog_login h1{
+		margin:10px 0px 2px;
+		font-size:13px;
+	}
+	.nalog_btn{
+		cursor:hand; cursor:pointer;
+		width:100%; padding:5px; margin:0;
+		border-radius:5px 5px 0px 0px;
+		background-color:#d4b067;
+		color:#FFF; font-weight:bold;
+		text-shadow:1px 1px 0px rgba(0,0,0,.5);
+		border:1px solid #be8f30;
+	}
+	#nalog_submit{}
+	#nalog_register{ 
+		width:50%; float:left; border-radius:0px 0px 0px 5px; 
+		border-top:none; border-right:none;
+	} #nalog_close{  
+		width:50%; float:right; border-radius:0px 0px 5px 0px;
+		border-top:none; 
+	}
+
+/* 
+	MENU
+*/
+#_main_menu_down{ 
+	position: relative; height: 92px; width: 100%; 
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+	border-radius:3px; margin-top:13px;
+}
+#_main_menu_box_down{
+	display: none;
+	position:absolute; width:100%; height:100%;
+	background-color:#1d3bbb; 
+}
+#_main_menu_box{
+	position:relative;
+	width: 100%; height: 100%; top:-3px;
+}
+._menu_item{
+	position: absolute; 
+	height: 100%;
+	display: block;
+	text-decoration: none;
+	/*background-image:url('../_slike/_mainMenu/back.jpg');
+	background-size:2px 92px;
+	background-repeat: repeat-x; */
+	color: #707070; font-weight: bold;
+	box-sizing:border-box;
+	border:1px solid #dcdcdc; border-left:none;
+} 
+._menu_item_in{position: relative; height:100%; }
+._menu_item  ._menu_icon{
+	position:absolute; top:15px; z-index:2;
+	width:100%; height:30px;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+	/* ikonice */
+	#_menu_item_ikonice_pocetna{ background-image:url('../_slike/_mainMenu/icon_pocetna.png'); }
+	#_menu_item_ikonice_ofakultetu{ background-image:url('../_slike/_mainMenu/icon_ofakultetu.png'); }
+	#_menu_item_ikonice_rukovodstvo{ background-image:url('../_slike/_mainMenu/icon_rukovodstvo.png'); }
+	#_menu_item_ikonice_osoblje{ background-image:url('../_slike/_mainMenu/icon_osoblje.png'); }
+	#_menu_item_ikonice_sluzbe{ background-image:url('../_slike/_mainMenu/icon_sluzbe.png'); }
+	#_menu_item_ikonice_saradnja{ background-image:url('../_slike/_mainMenu/icon_saradnja.png'); }
+	#_menu_item_ikonice_linkovi{ background-image:url('../_slike/_mainMenu/icon_linkovi.png'); }
+	#_menu_item_ikonice_kontakt{ background-image:url('../_slike/_mainMenu/icon_kontakt.png'); }
+
+._menu_item ._menu_text{ 
+	position:absolute; top:45px; z-index:2;
+	text-align: center; width:100%;
+	font-size:15px; margin-top:3px;
+	text-shadow:2px 2px 1px rgba(255,255,255,.5);
+}
+._menu_item_back{
+	position: absolute; width: 100%; height: 100%; top:0px; left: 0px;
+	background:linear-gradient(#FFF,#e6e6e7);
+	background-color: #e6e6e7;
+}
+._menu_item_hover{
+	position:absolute; width:100%; height:100%; top:0px; left:0px;
+	background-color:#f8f8f8;
+	box-shadow:0px 0px 15px rgba(0,0,0,.2);
+	background:linear-gradient(#FFF,#f8f8f8);
+}
+
+/*
+	FOOTER
+*/
+	#_footer_logo{
+		width: 59px;
+		height: 59px;
+		float: left;
+		margin-left: 10%;
+		margin-right: 15px;
+		background-image: url('../_slike/_main/logo_footer.png');
+		margin-top: 25px;
+	}
+	#_footer_info{
+		margin-top: 30px;
+		font-size: 12px;
+		/* font-weight: bold; */
+		color: #8F8F8F;
+	}

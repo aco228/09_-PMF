@@ -1,0 +1,43 @@
+#admin_precice_wrapper{
+	margin-top:15px;
+}
+#preciceObjasnjenje{
+	font-size:14px;
+	color: #535353;
+	margin-top: -5px;
+	text-shadow: 1px 1px 0px #FFF;
+	margin-bottom:15px;
+}
+#precice_canvas{ }
+	.rootAdd{
+		width: 100%;
+		background-color: #2e88b3;
+		background: linear-gradient(#56a2d1, #2e88b3);
+		padding: 2px 15px;
+		color: #FFF;
+		border-radius: 3px;
+		text-shadow: 1px 1px 0px rgba(0,0,0,.5);
+		border: 1px solid #4391b6;
+		box-shadow: 2px 2px 2px #237398;
+		font-size: 14px;
+		cursor: hand;
+		cursor: pointer;
+		
+	}
+	#canvas_left{width:48%; float:left; margin-left:2%; background-color: #FFF; padding:.5%}
+	#canvas_right{ float:left; width: 48%; background-color: #FFF; padding:.5%}
+
+#preciceSave{
+	margin-top:25px; width: 150px;
+	background-color: #2e88b3;
+	background: linear-gradient(#56a2d1, #2e88b3);
+	padding: 2px 15px;
+	color: #FFF;
+	border-radius: 3px;
+	text-shadow: 1px 1px 0px rgba(0,0,0,.5);
+	border: 1px solid #4391b6;
+	box-shadow: 2px 2px 2px #237398;
+	font-size: 14px;
+	cursor: hand;
+	cursor: pointer;
+}

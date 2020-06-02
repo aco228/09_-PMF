@@ -1,0 +1,21 @@
+#wups{}
+#postojecaSlika{
+	width: 400px; height: 200px;
+	background-size:cover;
+}
+#wupsBtnSave{
+	background-color: #2e88b3;
+	background: linear-gradient(#56a2d1, #2e88b3);
+	padding: 3px 15px;
+	margin: 0px 5px;
+	color: #FFF;
+	border-radius: 3px;
+	text-shadow: 1px 1px 0px rgba(0,0,0,.5);
+	border: 1px solid #4391b6;
+	box-shadow: 2px 2px 2px #237398;
+	font-size: 14px;
+	cursor: hand;
+	cursor: pointer;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}

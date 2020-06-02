@@ -1,0 +1,98 @@
+#_uMenu_wrapper{
+	position:fixed;
+	z-index:0;
+	width:220px;
+	background-color:#515a66;
+	background:linear-gradient(#6f7783,#515a66);
+	height:100%;
+	border-right:1px solid #33373d;
+	left:-221px;
+}
+#_uMenu_wrapper_in{}
+
+.umenu_box{ height:38px; overflow: hidden; }
+.umenu_item{
+	position:relative;
+	width:100%;
+	background-color:#6f7783;
+	background:linear-gradient(#6f7783,#515a66);
+	border:1px solid #33373d;
+	border-top:1px solid #878e98;
+	height:36px;
+	color:#FFF;
+	cursor:hand; cursor:pointer;
+} .umenu_item:hover{ background-color:#41c1e9; background:linear-gradient(#41c1e9,#2799db);	}
+	.umenu_icon{
+		float:left;
+		width:30px; height:100%;
+		background-repeat:no-repeat;
+		background-position:center;
+	}
+	/* ikonice */
+		#umenu_icon_administrator{ background-image:url('../_slike/_userMenu/icon_administrator.png'); }
+		#umenu_icon_profil{ background-image:url('../_slike/_userMenu/icon_profile.png'); }
+		#umenu_icon_profesor{ background-image:url('../_slike/_userMenu/icon_profesor.png'); }
+		#umenu_icon_obavjestenja{ background-image:url('../_slike/_userMenu/icon_obavjestenja.png'); }
+		#umenu_icon_poruke{ background-image:url('../_slike/_userMenu/icon_poruke.png'); }
+		#umenu_icon_kalendar{ background-image:url('../_slike/_userMenu/icon_kalendar.png'); }
+		#umenu_icon_predmeti{ background-image:url('../_slike/_userMenu/icon_predmeti.png'); }
+		#umenu_icon_odjava{ background-image:url('../_slike/_userMenu/icon_odjava.png'); }
+	.umenu_text{
+		float:left;
+		line-height:36px;
+		text-shadow:1px 2px 0px rgba(0,0,0,.5);
+	}
+	.umenu_load{
+		display: none;
+		position:absolute;
+		background-image:url('../_slike/_elementi/preloader.gif');
+		width:16px; height:11px;
+		top:10px; right:40px;
+	}
+	.umenu_notif{
+		position:absolute;
+		right:5px; top:9px;
+		background-color:#48515c;
+		font-size:13px; 
+		padding:0px 7px;
+		border-radius:9px;
+		box-shadow: inset 1px 1px 2px rgba(0,0,0,.4), 1px 1px  1px rgba(255,255,255,.4); 
+		text-shadow:1px 0px 0px rgba(0,0,0,.5);
+	}
+
+/* INSIDE */
+.umenu_inside{
+	background-color:#ffffff;
+}
+.umenu_inside_item{
+	background-image: url('../_slike/_userMenu/icon_submenu.png');
+	background-repeat:no-repeat;
+	background-position:5px;
+	color:#bcbcbf;
+	padding:2px;
+	border-bottom:1px solid #efeff0;
+	cursor:hand; cursor:pointer;
+} .umenu_inside_item:hover { background-color: #efeff0; color: #9C9C9C; }
+	._umenu_inside_item_prikazeSve{
+		cursor:hand; cursor:pointer;
+		text-align:center;
+		font-size:13px; padding:2px;
+	}._umenu_inside_item_prikazeSve:hover{ text-decoration: underline; }
+	.umenu_inside_item_naslov{
+		font-weight:bold;
+		margin-left:15px;
+		font-size:14px;
+	}
+	.umenu_inside_item_opis{
+		font-size:13px;
+		margin-left:15px;
+		margin-top:-4px;
+	}
+
+	/* PROFESOR umenu */
+	/* Dodaju se posebne klase kako bi se omogucio slajd efekat za elemente predmeta */
+	.umenu_inside_item_profesor{ height: 15px; overflow: hidden; }
+	.umenu_inside_item_profesor .umenu_inside_item_naslov:hover{ text-decoration:underline; }
+		.umenu_inside_item_opis_profesor{ margin-top:2px;}
+			.umenu_inside_item_opis_profesor_opt{ margin-top: -2px; margin-left:15px;}
+			.umenu_inside_item_opis_profesor_opt:hover{text-decoration:underline; }

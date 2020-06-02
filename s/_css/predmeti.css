@@ -1,0 +1,36 @@
+.sgodina{
+    background-color: #EEEEEE;
+    padding:5px;
+    margin-bottom: 5px;
+    border-radius:5px;
+    height:20px; overflow:hidden;
+    box-shadow:1px 1px 1px #898CB1;
+}
+.sgodinanaslov{
+    font-size:15px; font-weight: bold;
+    padding: 1px 5px; border-radius:5px;
+    background-color: #898CB1;
+    color: #EEE;
+    margin-bottom:5px;
+    cursor:hand; cursor:pointer;
+}
+.sgodinabody{
+    padding: 3px;
+    padding-left:15px;
+}
+
+.sgodina_semestar{ }
+.sgodina_semestar_naslov{ 
+    font-weight:bold;  padding: 1px 5px; border-radius: 5px;
+    background-color:rgba(255,255,255,.8);
+}
+.sgodina_semestar_body{
+    padding:3px;
+    padding-left:15px;
+}
+
+.sgodina_predmet{ padding:1px 5px; border-radius: 5px; }
+.sgodina_predmet:hover{
+    background-color:rgba(255,255,255,.5);
+    text-decoration:underline;
+}

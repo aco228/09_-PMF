@@ -1,0 +1,115 @@
+/*
+	SMJER
+*/	
+.asmjer{
+	background-color:#FFF;
+	border-radius:5px;
+	box-shadow:1px 1px 2px rgba(0,0,0,.5);
+	margin-bottom:7px;
+	color:#272727;
+	overflow: hidden; height: 36px;
+}
+.asmjer_in{ padding:5px; position:relative; }
+.asmjer_header{
+	position:relative; min-height:25px;
+}
+	.asmjer_pos{
+		width:30px; text-align:center; font-weight:bold;
+	}
+	.asmjer_naziv{
+		position:absolute;
+		top:-4px; left:35px;
+		cursor:hand; cursor:pointer;
+		text-shadow:1px 1px 0px rgba(0,0,0,.1);
+		width: 60%;
+	}
+	.asmjer_nazivSrp{}
+	.asmjer_nazivEng{ margin-top:-3px; font-size:14px; color: #8F8F8F; }
+
+	.asmjer_options{ position:absolute; right:0px; top:0px; }
+		.asmjer_btn{
+			float:left;
+			height:25px; width:32px;
+			background-color:#f1f1f1;
+			margin-left:5px;
+			cursor:hand; cursor:pointer;
+			box-shadow:1px 1px 1px rgba(0,0,0,.25);
+			background-repeat:no-repeat; background-position:center;
+		}
+			/* ikonice dugmadi */
+			.asmjerbtn_gore{ background-image:url('../../_slike/_admin/predmeti/smjer_gore.png'); }
+			.asmjerbtn_dolje{ background-image:url('../../_slike/_admin/predmeti/smjer_dolje.png'); }
+			.asmjerbtn_promjeni{ background-image:url('../../_slike/_admin/predmeti/smjer_promjeni.png'); }
+			.asmjerbtn_obrisi{ background-image:url('../../_slike/_admin/predmeti/smjer_izbrisi.png'); }
+			.asmjerbtn_rukovodioci{ background-image:url('../../_slike/_admin/predmeti/smjer_rukovodioci.png'); }
+			.asmjerbtn_link{ background-image:url('../../_slike/_admin/predmeti/smjer_link.png'); }
+			.asmjerbtn_pomoc{ background-image:url('../../_slike/_admin/predmeti/smjer_pitanje.png'); }
+
+.asmjer_body{
+	margin-top:10px;
+	padding-left:35px;
+	padding-bottom:5px;
+}
+
+/* godina */
+.asmjer_godina_body{
+	box-shadow:1px 1px 1px rgba(0,0,0,.25); overflow: hidden; height: 22px; margin-top:5px;
+}
+.asmjer_godina_naslov{
+	background-color: #ebebeb; padding:3px 10px; font-size:13px; font-weight:bold;
+	cursor:hand; cursor:pointer;
+}
+
+/* semestar */
+.asmjer_semestar_body{
+	padding:5px; padding-left: 15px;
+	background-color: #ebebeb;
+	overflow: hidden; /* height: 22px; */
+}
+.asmjer_semestar_head{
+	background-color:#d2d2d2; border-radius:5px;;
+	height:18px; font-size:14px; line-height:18px; 
+	padding:2px 10px;
+}
+	.asmjer_semestar_naslov{
+		float:left; cursor:hand; cursor:pointer;
+		font-weight:bold; width: 60%;
+	}
+	.asmjer_semestar_options{
+		float:right;
+	}
+	.asmjer_semestar_options .asmjer_btn{ height: 18px; }
+	.semestarbtn_new { background-image:url('../../_slike/_admin/predmeti/semestar_new.png'); }
+.asmjer_semestar_predmeti{
+	clear:both;
+	padding-left:15px;
+}
+
+/* predmet */
+.apredmet{
+	position:relative;
+	background-color:#FFF; margin-top:5px; height:35px;
+	border-radius:3px;
+	box-shadow:1px 1px 1px rgba(0,0,0,.25);
+}
+.apredmet_pos{
+	width:25px; text-align:center; font-weight:bold; line-height:35px;
+}
+.apredmet_naslov{
+	position:absolute;
+	top:0px; left:28px;
+	cursor:hand; cursor:pointer;
+}
+	.apredmet_naslovSrp{}
+	.apredmet_naslovEng{ margin-top:-3px; font-size:14px; color: #8F8F8F; }
+	
+.apredmet_options{
+	position:absolute;
+	top:0px; right:10px;
+	top:5px;
+}
+	/* ikonice */
+	.predmetbtn_izbrisi{ background-image:url('../../_slike/_admin/predmeti/smjer_izbrisi.png'); }
+	.predmetbtn_promjeni{ background-image:url('../../_slike/_admin/predmeti/smjer_promjeni.png'); }
+	.predmetbtn_rukovodioci{ background-image:url('../../_slike/_admin/predmeti/smjer_rukovodioci.png'); }
+	.predmetbtn_link{ background-image:url('../../_slike/_admin/predmeti/smjer_link.png'); }

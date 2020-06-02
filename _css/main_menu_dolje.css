@@ -1,0 +1,116 @@
+#down_menu_wrapper{
+	background-image:url('../_slike/_doljeMenu/back2.png');
+}
+#dwmnLoad{
+	position: fixed; display: none;
+	bottom: 40px; left:35px; width:64px; height: 64px;
+	background-image:url('../_slike/_doljeMenu/loader3.gif');
+	background-repeat: no-repeat;
+	z-index:305;
+}
+
+.dwmnItem{
+	z-index:303; width: 100%;
+	position:fixed;
+}
+.dwmnItem_in{ position: relative; }
+	.dwnmnNaslov{
+		position:absolute; width:300px; text-align: center;
+		background-color: #FFF; padding: 5px 0; padding-bottom: 15px;
+		border-radius:15px; 
+		background-image:url('../_slike/_doljeMenu/back2.png');
+		cursor:hand; cursor:pointer; 
+		font-size:13px; color:#898989; text-shadow:1px 1px 0px #000;
+		text-transform:uppercase; font-weight:bold;
+	}
+	/* OVER EFFECT */
+		.dwnmOverHolder{
+			position: absolute; z-index: 2;
+			width:300px;
+			pointer-events:none;
+		}
+		.dwmnOver{ position: absolute; width: 50px; height: 25px; overflow: hidden; }
+		.dwnmnNaslovOver{
+			position:absolute; width:300px; text-align: center;
+			padding: 5px 0; padding-bottom: 15px;
+			border-radius:15px; 
+			cursor:hand; cursor:pointer; 
+			font-size:13px; text-shadow:1px 1px 0px #000;
+			text-transform:uppercase; font-weight:bold;
+			color:#C0C0C0;;
+
+		}
+	.dwnmnBody{
+		position:absolute;
+		background-color: #FFF; width:100%; height:15px;
+		top:24px;
+		background-image:url('../_slike/_doljeMenu/back4.png');
+		overflow-y: auto;
+		box-shadow:0px 0px 15px rgba(0,0,0,.5);
+	}
+
+	/* ELEMENTI */
+	#dwnmPrecice, #dwnmPreciceOver { left: 10%;}
+	#dwnmObavjestenja{}
+	#dwnmObjava{ right:10%; }
+	#dwnmObjavaOver{ right: 10%; }
+/* INSIDE ELEMENTI */
+	/* TABELA */
+	.dmbox{ padding: 15px; padding-bottom:30px;}
+	.dmboxobjava{  
+		width: 100%; 
+		background-color: #FFF; 
+		margin-bottom: 4px;
+		padding: 4px 0px; 
+		font-size:13px;
+		box-shadow:1px 1px 1px rgba(0,0,0,.5);
+		cursor:hand; cursor:pointer;
+		opacity: .8; 
+		color: #FFF;
+		text-shadow:1px 1px 1px rgba(0,0,0,.5);
+		border-radius: 5px;
+		overflow:hidden;
+	}.dmboxobjava:hover{ opacity:1; }
+		.dmboxobjava_info{float:left; margin-left:0.5%; }
+			.dmboxobjava_icon{ width: 3%; height: 15; background-repeat:no-repeat; background-size:contain; background-position:center; }
+			.dmboxobjava_smjer{ width: 22%; font-weight: bold; }
+			.dmboxobjava_predmet{ width: 28%; font-weight: bold;}
+			.dmboxobjava_tekst{ width: 32%}
+			.dmboxobjava_datum{ width: 12%; float: left;}
+
+			/* Tipovi obavjestenja */
+			.dmbo_oba{ background: linear-gradient(rgba(0,0,0,.1), rgba(255,255,255,.2)), #9B3F3F; }
+				.dmbo_oba .dmboxobjava_icon{ background-image: url('../_slike/_pnotif/picon_obv.png'); }
+			.dmbo_mat{ background:linear-gradient(rgba(0,0,0,.1), rgba(255,255,255,.2)), #2828af; }
+				.dmbo_mat .dmboxobjava_icon{ background-image: url('../_slike/_pnotif/picon_mat.png'); }
+			.dmbo_rez{ background:linear-gradient(rgba(0,0,0,.1), rgba(255,255,255,.2)), #268147; }
+				.dmbo_rez .dmboxobjava_icon{ background-image: url('../_slike/_pnotif/picon_rez.png'); }
+			.dmbo_kal{ background:linear-gradient(rgba(0,0,0,.1), rgba(255,255,255,.2)), #7428af; }
+				.dmbo_kal .dmboxobjava_icon{ background-image: url('../_slike/_pnotif/picon_kal.png'); }
+
+/* PRECICE */
+.dwnmnBody_left{width:49%; margin-right: .5%; float:left;}
+.dwnmnBody_right{ width: 49%; float:left;}
+#preciceContainer{padding: .8%; font-size:14px; padding-bottom: 28px; }
+	.prKorjen{
+		position: relative;
+		margin-top:1px;
+		background-color: rgba(241, 240, 248, 0.4);
+		border-radius:5px; overflow: hidden;
+	}
+		.pKorjenOpen{
+			position: absolute; top: 3px; left: 5px;
+			height:10px; width: 20px;
+			background-image:url('../_slike/_doljeMenu/cascade.png');
+			background-repeat:no-repeat;
+			cursor:hand; cursor:pointer;
+			opacity:.4;
+		} .pKorjenOpen:hover{opacity:1; }
+		.prKorjenNaslov{
+			background-color:rgba(255,255,255,.4);
+			padding-left:36px;
+			text-shadow:1px 1px 1px rgba(255,255,255,.7);
+		}.prKorjenNaslov a:hover{ text-decoration: underline; }
+		.prKorjenBody{
+			padding-left:5%;
+		}
